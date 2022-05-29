@@ -54,6 +54,8 @@ THEN I am able to successfully create, update, and delete data in my database
 
 Click [here](https://drive.google.com/file/d/1leiMK5Z7iqKC6v4WvSuwOa31wKOAPixx/view) to view a video demonstration.
 
+https://drive.google.com/file/d/1leiMK5Z7iqKC6v4WvSuwOa31wKOAPixx/view
+
 ## License
 
 This application is licensed under MIT.
