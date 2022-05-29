@@ -5,7 +5,7 @@
 ## Description
 
 - Challenge Assignment for University of Wisconsin Extended Campus Coding Bootcamp
-- This application allows users to manage products, product categories, and product tags
+- This application provides an E-Commerce platform that allows users to manage (view, create, update, and delete) products, product categories, and product tags.
 
 ## Table of Contents
 
@@ -52,11 +52,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Preview:
 
-Click [here]() to view a video demonstration.
-
-The following GIF demonstrates the E-Commerce Application's appearance and functionality:
-
-![GIF of application functionallity]()
+Click [here](https://drive.google.com/file/d/1leiMK5Z7iqKC6v4WvSuwOa31wKOAPixx/view) to view a video demonstration.
 
 ## License
 
