@@ -34,14 +34,14 @@ router.post("/", (req, res) => {
 router.put('/:id', (req, res) => {
 // update a tag's name by its `id` value
   Tag.update(req.body, {where: {id: req.params.id}})
-  .then(tagData => res.status(200).json(tagData))
+  .then(tagData => res.status(200).json({message: 'This tag has been updated'}))
   .catch(err => res.status(400).json(err)) 
 });
 
 router.delete("/:id", (req, res) => {
   // delete on tag by its `id` value
   Tag.destroy({ where: { id: req.params.id } })
-    .then((tagData) => res.status(200).json(tagData))
+    .then((tagData) => res.status(200).json({message: "This tag has been deleted"}))
     .catch((err) => res.status(400).json(err));
 });
 

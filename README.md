@@ -5,7 +5,7 @@
 ## Description
 
 - Challenge Assignment for University of Wisconsin Extended Campus Coding Bootcamp
--
+- This application allows users to manage products, product categories, and product tags
 
 ## Table of Contents
 
@@ -41,11 +41,14 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Installation
 
-To run any necessary installations use the following command:
-
-```
-  npm install
-```
+- Run `npm install` at the root of the project
+- Enter the MYSQL Shell and run `source db/schema.sql;` to initialize the database
+- Create a .env file and add the following information:
+  - DB_NAME=ecommerce_db
+  - DB_USER='your MYSQL username'
+  - DB_PW='your MYSQL password'
+- In the root of the project, run `npm run seed` to seed the database
+- Run `npm start` or `node server.js` to start the server
 
 ## Preview:
 
@@ -53,7 +56,7 @@ Click [here]() to view a video demonstration.
 
 The following GIF demonstrates the E-Commerce Application's appearance and functionality:
 
-![gif of application functionallity]()
+![GIF of application functionallity]()
 
 ## License
 
